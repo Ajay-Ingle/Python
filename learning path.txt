@@ -1,0 +1,64 @@
+Python Language Learning Content
+
+1. Basics of Python Programming
+Installing Python and Setting Up Environment
+Syntax, Variables, and Data Types
+Input/Output Operations
+Operators
+Control Flow
+
+2. Conditional Statements
+Loops (for, while)
+Loop Control Statements
+3. Data Structures
+Lists
+Tuples
+Dictionaries
+Sets
+
+4.Functions
+Defining and Calling Functions
+Lambda Functions
+Scope and Recursion
+
+5. Object-Oriented Programming (OOP)
+Classes and Objects
+Inheritance
+Polymorphism
+Encapsulation
+
+6.Modules and Packages
+Built-in Modules (os, math, random)
+Creating Custom Modules
+Using pip to Install Packages
+
+7. File Handling
+Reading and Writing Files
+Exception Handling
+
+8. Python Libraries for Data Handling
+NumPy
+Pandas
+
+9. Python Libraries for Visualization
+Matplotlib
+Seaborn
+
+10. Advanced Topics
+List Comprehension
+Generators and Iterators
+Decorators
+
+11. Working with APIs
+HTTP Requests using requests
+Parsing JSON
+
+12. Database Operations
+SQLite and Python
+CRUD Operations
+
+13. Web Development Basics
+Introduction to Flask/Django
+Creating REST APIs
+
+
