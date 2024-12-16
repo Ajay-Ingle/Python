@@ -37,6 +37,7 @@ print("I am {} years old.".format(age))
 print("Hello", "World", sep="---", end="!")
 
 #3. Operators
+
 #Arithmetic Operators
 #Used for basic mathematical operations.
 
@@ -53,3 +54,51 @@ print(a + b)  # 13
 print(a / b)  # 3.333
 print(a // b)  # 3
 print(a ** b)  # 1000
+
+#Comparison Operators
+#Used to compare two values.
+#== (Equal to)
+#!= (Not equal to)
+#<, >, <=, >=
+x = 5
+y = 10
+print(x == y)  # False
+print(x < y)   # True
+
+#Logical Operators
+#Used for combining conditions.
+#and, or, not
+is_student = True
+age = 18
+print(is_student and age > 17)  # True
+
+
+#Bitwise Operators
+#Operate on binary numbers.
+#& (AND), | (OR), ~ (NOT), ^ (XOR), << (Left Shift), >> (Right Shift)
+a = 5  # 0101 in binary
+b = 3  # 0011 in binary
+print(a & b)  # 1 (0001)
+print(a | b)  # 7 (0111)
+
+#Assignment Operators
+#Used to assign values to variables.
+#=, +=, -=, *=, /=, %=, **=, //=
+x = 10
+x += 5  # x = x + 5
+print(x)  # 15
+
+
+#Membership Operators
+#Check for membership in a sequence.
+#in, not in
+fruits = ["apple", "banana"]
+print("apple" in fruits)  # True
+print ("Mango" in fruits) #flase
+
+#Identity Operators
+#Check if two variables reference the same object.
+#is, is not
+x = [1, 2]
+y = x
+print(x is y)  # True
