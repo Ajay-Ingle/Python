@@ -103,3 +103,44 @@ for i in range(1,11):
         continue
     else:
         print(" ",i)
+
+
+"""Ending a Program Early with the sys.exit() Function
+The last flow control concept to cover is how to terminate the program. Programs always terminate if the program execution reaches the bottom of the instructions. However, you can cause the program to terminate, or exit, before the last instruction by calling the sys.exit() function. Since this function is in the sys module, you have to import sys before your program can use it."""
+
+import sys
+
+while True:
+    print("Type exit to exit")
+
+    response = input()
+
+    if response == "exit":
+        sys.exit()
+    
+    print("you typed " +response+ " .")
+
+
+# This is a guess the number game.
+                                           
+# This is a guess the number game.
+import random
+secretNumber = random.randint(1, 20)
+print('I am thinking of a number between 1 and 20.')
+
+# Ask the player to guess 6 times.
+for guessesTaken in range(1, 7):
+    print('Take a guess.')
+    guess = int(input())
+
+    if guess < secretNumber:
+        print('Your guess is too low.')
+    elif guess > secretNumber:
+        print('Your guess is too high.')
+    else:
+        break    # This condition is the correct guess!
+
+if guess == secretNumber:
+    print('Good job! You guessed my number in ' + str(guessesTaken) + 'guesses!')
+else:
+    print('Nope. The number I was thinking of was ' + str(secretNumber))
