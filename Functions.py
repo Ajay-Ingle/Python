@@ -25,9 +25,35 @@ collatz(6)"""
 
 """Write a function called calculate_area that takes base and height as an input and returns and area of a triangle. """
 
-height = int(input("Enter the height: "))
+"""height = int(input("Enter the height: "))
 base = int(input("Enter the base: "))
 
 Area = 1/2 * base * height
 
-print("The area of triangle is: ",Area)
+print("The area of triangle is: ",Area)"""
+
+
+"""Modify above function to take third parameter shape type. It can be either "triangle" or "rectangle". Based on shape type it will calculate area. Equation of rectangle's area is,"""
+
+print ("Enter the shape of your area--")
+print("1. Rectangle ")
+print("2. Triangle")
+
+choice = int(input("Enter the choice of shape: "))
+
+if(choice == 1):
+    Rect_Len = int(input("Enter the lenght of rectangle: "))
+    Rect_width = int(input("Enter the width of rectangle: "))
+    Area_of_Rectangle = Rect_Len * Rect_width
+
+    print("The area of rectangle is: ",Area_of_Rectangle)
+elif(choice == 2):
+    height = int(input("Enter the height: "))
+    base = int(input("Enter the base: "))
+
+    Area = 1/2 * base * height
+
+    print("The area of triangle is: ",Area)
+
+else:
+    print("Please enter the proper choice...")
