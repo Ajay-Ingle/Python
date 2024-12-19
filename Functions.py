@@ -35,6 +35,7 @@ print("The area of triangle is: ",Area)"""
 
 """Modify above function to take third parameter shape type. It can be either "triangle" or "rectangle". Based on shape type it will calculate area. Equation of rectangle's area is,"""
 
+"""
 print ("Enter the shape of your area--")
 print("1. Rectangle ")
 print("2. Triangle")
@@ -56,4 +57,21 @@ elif(choice == 2):
     print("The area of triangle is: ",Area)
 
 else:
-    print("Please enter the proper choice...")
+    print("Please enter the proper choice...")"""
+
+"""
+Write a function called print_pattern that takes integer number as an argument and prints following pattern if input number is 3,
+*
+**
+***
+"""
+x = int(input("Enter the number: "))
+
+for i in range(0,x):
+    
+    for j in range(0,i+1):
+        print("* ", end="")
+    print()
+
+
+
