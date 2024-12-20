@@ -4,7 +4,7 @@ print(item)
 item[0]= "Bananna"
 print(item)
 print(item[0:3])
-print(-1)
+print(item[-1])
 
 item.append("Fruits")
 print(item)
