@@ -1,4 +1,4 @@
-import custom_module
+import CustomModule.Areas as f
 
-areaOfTraingle = custom_module.area_of_triangle(5,10)
+areaOfTraingle = f.area_of_triangle(5,10)
 print(areaOfTraingle)
