@@ -8,3 +8,6 @@ print(x)
 List: all the values have same meaning(Homogenous)
 Tuples: all the values have different meaning(Heterogenous)
 """
+"""Tuple is immutabel we cant change the values of tuple"""
+Address = ("At post Anegaon", "Tq. kaij", "Dist. Beed", 431517)
+print(Address)
