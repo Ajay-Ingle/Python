@@ -10,3 +10,9 @@ def fibonacci(n):
 
 for num in fibonacci(5):
     print(num)
+
+
+# Benefits of Generators:
+
+# Efficient memory usage, as values are generated lazily (one at a time).
+# Useful for iterating over large datasets.
